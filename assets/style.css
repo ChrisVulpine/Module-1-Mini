@@ -1,26 +1,28 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 body {
     position: relative;
-    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 20px;
-    background-color: #FDF8F5;
-    color: #4F4846
+    background-color: #108469;
+    color: #ffffff
 }
 
 h1,
 h2 {
     margin: 20px;
+    color:white
 }
 
 main {
     padding: 60px 0;
 }
+
 li {
     display: inline;
-    padding: 0px 10px;
+    padding: 0px 20px;
     text-decoration:none;
 }
 
@@ -34,21 +36,19 @@ footer {
     width: 100%;
     height: 60px;
     line-height: 60px;
-    background-color: rgb(31, 139, 112);
-    border: 5px solid rgb(4, 68, 14);
-    box-shadow: 0px 10px 15px 3px #272F2E;
-    color: white;
 }
 
 header {
     position: fixed;
-    border-bottom: 10px solid #5a1e03;
+    border-bottom: 10px solid rgb(120, 57, 6);
+    border-width: 5px;
+    background-color: rgb(74, 36, 4);
 }
 
 footer {
     position: absolute;
     margin-top: 0;
-    border-bottom: 10px solid #5a1e03;
+    border-bottom: 5px solid #108469;
     color: #FDF8F5;
 }
 
@@ -58,21 +58,18 @@ figure {
 
 img {
     display: block;
-    height: 200px;
+    height: 230px;
     width: 250px;
     margin: 20px auto;
-    border: 5px solid rgb(255, 128, 0);
-    box-shadow: 0px 10px 15px 3px #272F2E;
 }
 section {
     margin-bottom: 0;
     padding: 20px 10px 40px 10px;
-    border-top: 3px solid #DDAF94;
-    background-color: #E8CEBF;
+    border: 15px solid #4f2a15;
+    background-color: rgb(74, 36, 4);
 }
 ul {
-    text-align: center;
-    padding-left: 20px; 
+    padding-left: 10px; 
     font-size: 20px; 
 }
 p {
@@ -84,7 +81,7 @@ p {
     margin: 0 auto;
     width: 500px;
     padding: 15px;
-    border: 5px solid #089050;
+    border: 5px solid #108469;
     border-radius: 20px;
   }
   
@@ -108,17 +105,24 @@ p {
   button {
     height: 40px;
     width: 120px;
-    background-color: #df500e;
+    background-color: #312214;
     color: #FDF8F5;
   }
    
   /* Class Selectors */
+  .text-centerWhite {
+    text-align: center;
+  
+  }
   .text-center {
     text-align: center;
+    color: rgb(255, 255, 255);
+  
   }
   
   .text-right {
     text-align: right;
+    color: rgb(255, 255, 255);
   }
   #roundbutton {
     border-radius: 12px;
