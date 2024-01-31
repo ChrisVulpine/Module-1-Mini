@@ -1,38 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
         <head>
-            <meta charset="UTF-8" />
+            <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <link rel="stylesheet" href="./assets/style.css">
-            <title>Practice page 🦊</title>
+            <title>My landing Page</title>
         </head>
     <body>
-        <header id="top"> 
-        <h1>Foxes are Best!🦊</h1>
-        <br>
-        <img src="./assets/red_fox_sleeping1.png" alt="Profile image of a fox." />
-      <br>
+        <header>
+            <nav class="text-right">
+                <ul>
+                    <li><a href="https://github.com/">GitHub</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </header>
-        <main>
-            <br>
-        <p>Foxes are the best animal you will ever see.<br>
-            <br>
-        Read on to find out why. <br>
-    <br>
-    <ul>Types of Foxes
-        <li>Red</li>
-        <img src="./assets/red_fox_sleeping1.png" alt="Profile image of a fox." />
-        <br>
-        <li>Blue</li>
-        <img src="./assets/red_fox_sleeping1.png" alt="Profile image of a fox." />
-        <br>
-        <li>Green</li>
-        <img src="./assets/red_fox_sleeping1.png" alt="Profile image of a fox." />
-        <br>
-    </ul>
-</p>
-</main>
-
+    <main>
+        <h1 class="text-center">My New Website</h1>
+        <figure>
+            <img src="./assets/red_fox_sleeping1.png" alt="red fox sleeping">
+            <figcaption class="text-center">This is a red fox. Wow!</figcaption>
+        </figure>
+        <section id="contact">
+            <h2 class="text-center">Contact Me</h2>
+            <form>
+                <ul>
+                    <li>
+                        <label class="text-right" for="name">Name:</label>
+                        <input type="text" id="name" name="user-name">
+                    </li>
+                    <li>
+                        <label class="text-right" for="email">Email:</label>
+                        <input type="text" id="email" name="user-email">
+                    </li>
+                </ul>
+                <br>
+                <div class="text-center">
+                    <button id="roundbutton" type="submit">SEND</button>
+                </div>
+            </form>
+        </section>
+    </main> 
+    <footer class="text-center">
+        © 2024 Mr. Potatohead Inc.
+    </footer>
     </body>
     </html>
