@@ -62,20 +62,24 @@ img {
     width: 250px;
     margin: 20px auto;
 }
+
 section {
     margin-bottom: 0;
     padding: 20px 10px 40px 10px;
     border: 15px solid #4f2a15;
     background-color: rgb(74, 36, 4);
 }
+
 ul {
     padding-left: 10px; 
     font-size: 20px; 
 }
+
 p {
     text-align: center;
     font-size: 30px;
   }
+
   form {
     /* Center the form on the page */
     margin: 0 auto;
