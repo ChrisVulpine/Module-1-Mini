@@ -1,7 +1,7 @@
 # Practice Landing Page
 
 ## Description
-TEST TO SEE WHAT HAPPENS!!!! 😮
+Module 1.3 Mini Project
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
 - What was your motivation?
